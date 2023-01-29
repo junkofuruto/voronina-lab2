@@ -1,0 +1,13 @@
+﻿<Window x:Class="EX5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EX5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="400">
+    <Grid>
+        <TextBox x:Name="StringTextBox" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="10 10 10 0" Height="200" Text="С помощью функции надо определить, сколько раз данное число&#xD;&#xA;С помощью функции программа находит сумму&#xD;&#xA;Из заданной строки формирует другую строку&#xD;&#xA;С помощью функции расставить пробелы&#xD;&#xA;ААаааАААААаАаФАААААа&#xD;&#xA;Написать функцию замены элементов диагонали матрицы на нули&#xD;&#xA;Написать функцию замены всех отрицательных&#xD;&#xA;Таблица футбольного чемпионата&#xD;&#xA;Площадь торгового зала представляет&#xD;&#xA;Каждый стенд, размещенный в торговом зале"/>
+        <Button VerticalAlignment="Bottom" HorizontalAlignment="Stretch" Margin="10 250 10 10" Height="40" Content="CALCULATE" Click="ProceedTaskAction"/>
+    </Grid>
+</Window>
